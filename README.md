@@ -1,6 +1,6 @@
 # 중랑문화재단 축제 안내 서비스
 
-- 주소: http://festival.jnfac.or.kr/ — 재단 공인 IP 222.109.109.29 → (전산 포트포워딩) → 사내 서버 10.0.0.249:8081 (nginx, /var/www/festival)
+- 주소: http://festival.jnfac.or.kr/ — 재단 공인 IP 222.109.109.29:80 → (전산 포트포워딩) → 사내 서버 10.0.0.249:80, nginx 이름 기반 분기(festival.jnfac.or.kr만 축제 사이트, 모르는 이름은 444로 끊음, 제규정은 10.0.0.249 이름+사내망 주소만). 8081은 예비
 - 서버 반영: `docs/`를 묶어 올린 뒤 `deploy/server-festival-setup.sh` 실행 (안전관리메뉴얼 /yongma/safety/ 는 보존)
 - GitHub Pages(https://kdu100.github.io/jnfac-festival/)는 음성 안내만 있는 예비 사본
 - 2026 중랑 용마폭포축제 시각장애인·지적장애인 음성 안내(QR): http://festival.jnfac.or.kr/yongma/
