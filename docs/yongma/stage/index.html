@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#000000">
+<title>용마 스테이지 프로그램 안내 - 2026 중랑 용마폭포축제 음성 안내</title>
+<link rel="stylesheet" href="../assets/style.css?v=muxs5umh">
+</head>
+<body>
+<main>
+  <p class="kicker">2026 중랑 용마폭포축제 음성 안내</p>
+  <h1>용마 스테이지 프로그램 안내</h1>
+  <p class="where">용마 스테이지</p>
+
+  <button id="play" class="big" type="button" aria-label="음성 안내 듣기. 화면을 누르면 안내가 재생됩니다.">
+    <span class="icon" aria-hidden="true">▶</span>
+    <span class="label" style="white-space:pre-line">화면을 누르면
+안내가 시작됩니다</span>
+    <span class="sub">화면 아무 곳이나 눌러 주세요</span>
+  </button>
+  <p id="time" class="time" aria-hidden="true">0:00</p>
+  <div class="controls">
+    <button id="restart" type="button">처음부터</button>
+    <button id="back" type="button">10초 뒤로</button>
+    <button id="speed" type="button">보통 빠르기</button>
+  </div>
+  <div id="live" class="sr-only" aria-live="polite"></div>
+
+  <details>
+    <summary>안내 내용 글로 보기</summary>
+    <div class="script">
+      <p>안녕하세요. 2026년 중랑 용마폭포축제에 오신 것을 환영합니다.</p>
+      <p>지금부터 용마 스테이지 프로그램을 안내합니다.</p>
+      <p>축제는 10월 10일 토요일에 열립니다.</p>
+      <p>오전 11시부터 낮 12시까지, 중랑문화원 전통놀이 한마당이 있습니다.</p>
+      <p>낮 12시 30분부터 오후 1시 10분까지, 코튼캔디맨 솜사탕 마임 공연이 있습니다.</p>
+      <p>오후 1시 30분부터 3시까지, 중랑문화원 중랑역사 퀴즈대회가 있습니다.</p>
+      <p>오후 3시 30분부터 7시까지, 용마 스테이지 콘서트 오프닝 쇼가 있습니다.</p>
+      <p>중랑구립 실버악단 공연, 중랑구 시니어모델 패션쇼, 중랑 청소년 아티스트와 수상자 공연이 이어집니다.</p>
+      <p>오후 7시부터 8시까지, 중랑구민대상 시상식이 있습니다.</p>
+      <p>마지막으로 오후 8시부터 9시까지, 용마 스테이지 콘서트가 열립니다.</p>
+      <p>초대 가수는 마로니에, 심신, 디제이 디오씨입니다.</p>
+      <p>모든 공연은 무료로 관람할 수 있습니다.</p>
+      <p>공연 시간은 현장 사정에 따라 바뀔 수 있습니다.</p>
+      <p>도움이 필요하면 축제 직원에게 말해 주세요.</p>
+      <p>안내소에 가도 도와드려요.</p>
+      <p>2026 중랑 용마폭포축제에서 즐거운 시간 보내세요.</p>
+      <p>감사합니다.</p>
+    </div>
+  </details>
+
+  <nav class="nav" aria-label="다른 안내">
+    <a href="../info2/">제2종합안내소 위치 안내 듣기</a>
+    <a href="../toilet/">플레이존 방향 화장실 위치 안내 듣기</a>
+    <a href="../art/">용마 아트존 프로그램 안내 듣기</a>
+    <a href="../play-food/">용마 플레이존·푸드존 안내 듣기</a>
+    <a href="../">전체 안내 목록</a>
+  </nav>
+  <p class="help">도움이 필요하면 가까운 축제 직원이나 종합안내소에 말씀해 주세요.</p>
+  <p class="foot">중랑문화재단 · 2026년 10월 10일 토요일</p>
+</main>
+<audio id="audio" src="../audio/stage.mp3" preload="auto"></audio>
+<script src="../assets/player.js?v=muxs5umh"></script>
+</body>
+</html>

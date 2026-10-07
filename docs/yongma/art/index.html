@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#000000">
+<title>용마 아트존 프로그램 안내 - 2026 중랑 용마폭포축제 음성 안내</title>
+<link rel="stylesheet" href="../assets/style.css?v=muxs5umh">
+</head>
+<body>
+<main>
+  <p class="kicker">2026 중랑 용마폭포축제 음성 안내</p>
+  <h1>용마 아트존 프로그램 안내</h1>
+  <p class="where">용마 아트존</p>
+
+  <button id="play" class="big" type="button" aria-label="음성 안내 듣기. 화면을 누르면 안내가 재생됩니다.">
+    <span class="icon" aria-hidden="true">▶</span>
+    <span class="label" style="white-space:pre-line">화면을 누르면
+안내가 시작됩니다</span>
+    <span class="sub">화면 아무 곳이나 눌러 주세요</span>
+  </button>
+  <p id="time" class="time" aria-hidden="true">0:00</p>
+  <div class="controls">
+    <button id="restart" type="button">처음부터</button>
+    <button id="back" type="button">10초 뒤로</button>
+    <button id="speed" type="button">보통 빠르기</button>
+  </div>
+  <div id="live" class="sr-only" aria-live="polite"></div>
+
+  <details>
+    <summary>안내 내용 글로 보기</summary>
+    <div class="script">
+      <p>안녕하세요. 2026 중랑 용마폭포축제에 오신 것을 환영합니다.</p>
+      <p>용마 아트존 프로그램을 안내합니다.</p>
+      <p>축제 시간 내내 중랑구 예술협회 작품 전시가 열립니다.</p>
+      <p>중랑문인협회 시화전, 중랑포토클럽 작품전, 중랑디카시인협회 작품전을 볼 수 있습니다.</p>
+      <p>오전 11시부터 오후 6시까지는 여러 체험·홍보 부스가 운영됩니다.</p>
+      <p>상봉공방 아뜰리에 랑, 봉제창작소 플리마켓, 중랑면목미디어센터의 크로마키 사진 촬영, 에코마일리지 신규 등록 홍보부스, 중랑동행 사랑넷, 찾아가는 부동산 상담창구, 망우하고 행복하랑, 중랑의 초록길, 새로운 변화 부스가 있습니다.</p>
+      <p>오후 1시 30분부터 3시까지 용마 버스킹 페스타가 열립니다.</p>
+      <p>중랑 예술인들이 광장에서 음악 공연을 합니다.</p>
+      <p>함께 즐겨 보세요.</p>
+      <p>도움이 필요하면 축제 직원에게 말해 주세요.</p>
+      <p>안내소에 가도 도와드려요.</p>
+      <p>감사합니다.</p>
+    </div>
+  </details>
+
+  <nav class="nav" aria-label="다른 안내">
+    <a href="../info2/">제2종합안내소 위치 안내 듣기</a>
+    <a href="../toilet/">플레이존 방향 화장실 위치 안내 듣기</a>
+    <a href="../stage/">용마 스테이지 프로그램 안내 듣기</a>
+    <a href="../play-food/">용마 플레이존·푸드존 안내 듣기</a>
+    <a href="../">전체 안내 목록</a>
+  </nav>
+  <p class="help">도움이 필요하면 가까운 축제 직원이나 종합안내소에 말씀해 주세요.</p>
+  <p class="foot">중랑문화재단 · 2026년 10월 10일 토요일</p>
+</main>
+<audio id="audio" src="../audio/art.mp3" preload="auto"></audio>
+<script src="../assets/player.js?v=muxs5umh"></script>
+</body>
+</html>

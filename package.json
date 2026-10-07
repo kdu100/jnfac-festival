@@ -1,0 +1,10 @@
+{
+  "name": "yongma-voice",
+  "private": true,
+  "description": "2026 중랑 용마폭포축제 음성 안내 (QR)",
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "serve": "node serve.mjs"
+  }
+}
