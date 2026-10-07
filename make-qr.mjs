@@ -8,7 +8,8 @@ import QRCode from 'qrcode';
 
 const ROOT = path.dirname(fileURLToPath(import.meta.url));
 const OUT = path.join(ROOT, 'qr');
-const BASE = 'https://festival.jnfac.or.kr/yongma/';
+// HTTPS 인증서는 외부 포트포워딩 후에 발급 가능 → 확실히 열리는 http 로 인코딩 (https 준비되면 서버가 자동 전환)
+const BASE = 'http://festival.jnfac.or.kr/yongma/';
 const data = JSON.parse(fs.readFileSync(path.join(ROOT, 'guides.json'), 'utf8'));
 fs.mkdirSync(OUT, { recursive: true });
 const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
